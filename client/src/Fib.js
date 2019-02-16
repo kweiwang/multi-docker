@@ -70,7 +70,7 @@ class Fib extends Component {
         <h3>Calculated Values:</h3>
         {this.renderValues()}
 
-        <h2>Hello</h2>
+        <h2>Hello!</h2>
       </div>
     );
   }
