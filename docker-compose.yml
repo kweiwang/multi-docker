@@ -11,6 +11,9 @@ services:
       context: ./nginx
     ports:
       - '3050:80'
+    links:
+      - "api"
+      - "client"      
   api:
     build:
       dockerfile: Dockerfile.dev
