@@ -46,3 +46,6 @@ services:
     volumes:
       - /app/node_modules
       - ./worker:/app
+networks:
+    complex-network:
+      driver: bridge
